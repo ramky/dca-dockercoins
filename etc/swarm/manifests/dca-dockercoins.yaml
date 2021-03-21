@@ -1,0 +1,12 @@
+services:
+  hasher:
+    image: academiaonline/dca-dockercoins:latest-hasher
+  redis:
+    image: redis
+  rng:
+    image: academiaonline/dca-dockercoins:latest-rng
+  webui:
+    image: academiaonline/dca-dockercoins:latest-webui
+  worker:
+    image: academiaonline/dca-dockercoins:latest-worker
+version: '3.8'
